@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@500;700&family=Roboto+Slab&display=swap');
+
+html {
+    font-size: 14px;
+
+}
+
+body{
+font-family: 'Roboto Slab', serif;
+}
+
+a{
+    text-decoration: none;
+}
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.old_price{
+    font-weight: bold;
+    color: red;
+}
+
+.new_price{
+    font-weight: bold;
+    background-color: rgb(21, 131, 21);
+    color: aliceblue;
+    padding: 1px;
+    border-radius: 5px;
+
+}
+
+.pic-box{
+position: relative;
+}
+.hot{
+  background-color:rgb(255, 64, 0);
+  color: aliceblue;
+  width: 45px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 45px;
+  z-index: 10;
+
+}
